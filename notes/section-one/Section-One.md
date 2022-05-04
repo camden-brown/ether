@@ -23,3 +23,6 @@
 | balance | Amount of ether this accounts owns |
 | storage | Data storage for this contract     |
 | code    | Raw machine code for this contract |
+
+### External Account to Create Contract Transaction
+* Has a "data" prop for the compiled byte code
