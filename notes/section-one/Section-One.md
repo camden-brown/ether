@@ -16,6 +16,8 @@
 
 ## Smart Contracts
 * Contract Accounts belong to 1 network 
+* The data on the contract is not returned immediately. Returns the transaction hash.
+* Transaction fees for updating a contract
 
 ### Contract Account
 | Field     | Description |
@@ -26,3 +28,8 @@
 
 ### External Account to Create Contract Transaction
 * Has a "data" prop for the compiled byte code
+
+### Gas
+* Price for performing a transaction
+* startGas/gasLimit - Amount willing to spend in total
+* gasPrice - Unit of wei willing to spend per gas (10 gas limit(300x10 = 3000 wei) === 300 wei/gasPrice)
