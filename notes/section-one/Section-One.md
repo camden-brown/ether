@@ -33,3 +33,6 @@
 * Price for performing a transaction
 * startGas/gasLimit - Amount willing to spend in total
 * gasPrice - Unit of wei willing to spend per gas (10 gas limit(300x10 = 3000 wei) === 300 wei/gasPrice)
+
+### Mnemonic Phrases
+* Pass phrases into mnemonic algorithm to produce an Account's private hash
